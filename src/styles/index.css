@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  body {
+    background-color: #FFF5E1;
+    color: #3E2723;
+    font-family: 'Nunito', sans-serif;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: 'Fredoka', cursive, sans-serif;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #FFF5E1;
+}
+::-webkit-scrollbar-thumb {
+  background: #FF9A8B;
+  border-radius: 5px;
+  border: 2px solid #FFF5E1;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #E88374;
+}
+
+/* Paper Texture & Stamp for Prescription */
+.paper-texture {
+  background-color: #FDFAF5;
+  background-image: 
+    radial-gradient(#3E2723 0.75px, transparent 0.75px),
+    radial-gradient(#3E2723 0.75px, #FDFAF5 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+  background-blend-mode: soft-light;
+}
+
+.stamp-seal {
+  border: 3px double #3E2723;
+  border-radius: 50%;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  color: #3E2723;
+  transform: rotate(-10deg);
+  box-shadow: inset 0 0 0 2px rgba(62, 39, 35, 0.15);
+}
+
+/* Custom cursor hide default only when pointer is fine */
+@media (pointer: fine) {
+  .custom-cursor-active,
+  .custom-cursor-active * {
+    cursor: none !important;
+  }
+}
+
+/* Polaroid Photo Styling */
+.polaroid-frame {
+  background: #FFFFFF;
+  padding: 12px 12px 28px 12px;
+  box-shadow: 0 10px 25px -5px rgba(62, 39, 35, 0.18), 0 8px 10px -6px rgba(62, 39, 35, 0.12);
+  border: 1px solid rgba(62, 39, 35, 0.06);
+  user-select: none;
+}
+
+/* Reduced Motion overrides */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+

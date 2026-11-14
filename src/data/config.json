@@ -1,0 +1,54 @@
+{
+  "name": "Raga Sruthi",
+  "senderName": "Vinay",
+  "petDog": "Bhanu",
+  "petCat": "Vinay",
+  "age": null,
+  "memes": [
+    "/memes/1.jpg",
+    "/memes/2.jpg",
+    "/memes/3.jpg",
+    "/memes/4.jpg",
+    "/memes/5.jpg",
+    "/memes/6.jpg",
+    "/memes/7.jpg",
+    "/memes/8.jpg",
+    "/memes/9.jpg",
+    "/memes/10.jpg"
+  ],
+  "prescriptionText": "Unlimited Chocolates",
+  "diagnosis": "Too Awesome & Extraordinary",
+  "birthdayMessage": "Another year of being wonderfully chaotic, brilliantly kind, and endlessly special.",
+  "wishes": [
+    {
+      "id": "blinkit",
+      "badge": "🛵 Instant Snack Voucher",
+      "title": "Blinkit On Demand",
+      "promise": "Order anything you want from Blinkit (max Rs.200) from me",
+      "subtext": "Valid anytime today. Chocolates, ice cream, chips — bill goes straight to Vinay!"
+    },
+    {
+      "id": "golden-pass",
+      "badge": "👑 Vinay's Golden Pass",
+      "title": "The Ultimate Birthday Promise",
+      "promise": "You can ask me to do anything, and I will do it for you",
+      "subtext": "No questions asked, no expiry date. Simply tell Vinay what you want."
+    }
+  ],
+  "themeColors": {
+    "bg": "#FFF5E1",
+    "primary": "#FF9A8B",
+    "secondary": "#B5EAD7",
+    "chocolate": "#3E2723",
+    "white": "#FFFFFF",
+    "muted": "#8C756B"
+  },
+  "content": {
+    "heroSubtitle": "A little celebration for someone extraordinary — with love from Vinay.",
+    "heroButton": "Make a Wish",
+    "vetHeading": "Future Dr. Raga Sruthi in the Making",
+    "memeHeading": "Chaos Unleashed",
+    "memeButton": "DO NOT CLICK",
+    "closingMessage": "Stay wonderful. Stay chaotic. Never stop being you."
+  }
+}
